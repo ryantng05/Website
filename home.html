@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en":>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Ryan Tang">
+        <meta name="description" content="This page contains your butt">
+        <title>Web | Ryan Tang</title>
+        <link rel="stylesheet" href="styles/home-style.css">
+        <link rel="stylesheet" href="styles/bio-style.css">
+        <link rel="stylesheet" href="styles/portfolio-style.css">
+        <link rel="stylesheet" href="styles/contact-style.css">
+        <link rel="stylesheet" href="styles/links.css">
+
+        <!--Google Fonts Links-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="div-homepage-headline">
+            <nav class="header_nav">
+                <h1>Ryan Tang</h1>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="details">
+            <h1>I'm <span>Ryan</span></h1>
+            <p>I am a second year computer science student at Wilfrid Laurier University!</p>
+            <p>Currently seeking Summer 2025 Internships!</p>
+        <a href="images/Resume_Summer_2025.pdf" download>DOWNLOAD CV</a>
+            <div class="div-img">
+                <img class="home-img" src="images/Ryan Grad.jpg">
+            </div>
+        </div>
+        <a id="about"></a>
+            <div class="about">
+                <hr>
+                <h1>About Me!</h1>
+                <p>Hello! I'm Ryan Tang, from The Greater Toronto Area in Canada</p>
+                <p>Currently completing my Bachelors from Wilfrid Laurier University in computer science (2023 - 2027)</p>
+            </div>
+        <a id="portfolio"></a>
+            <div class="portfolio">
+                <hr>
+                <h1>Projects</h1>
+                <div class="cards-box">
+                    <div class="cards">
+                        <img class="portfolio-img" src="" alt="Preview Coming Soon">
+                        <h2>Wrestling Team Manager</h2>
+                        <p>Object-Oriented Programming in C#</p>
+                        <p>Console Application to streamline modifications and creation of teams</p>
+                        <p>Tested and supports large amounts of data</p>
+                    </div>
+
+                    <div class="cards">
+                        <img class="portfolio-img" src="" alt="Preview Coming Soon">
+                        <h2>Minecraft Plugin Development</h2>
+                        <p>Plugin Development in Java</p>
+                        <P>Implemented Commands and plugins using Minecraft Spigot API</P>
+                        <p>Commands and plugins used by 1000+ users</p>
+                    </div>
+
+                </div>
+            </div>
+        <a id="contact"></a>
+            <div class="contact">
+                <hr>
+                <h1>Contact</h1>
+
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <div class="message-box">
+                        <input type="hidden" name="access_key" value="0c29022e-4d3d-4f7d-9199-0034662e7030">
+                            <div class="input-row">
+                                <div class="input-group">
+                                    <label for="firstName">First Name</label>
+                                    <input type="text" name="first_name">
+                                </div>
+                                <div class="input-group">
+                                    <label for="lastName">Last Name</label>
+                                    <input type="text" name="last_name">
+                                </div>
+                            </div>
+                            <div class="input-row">
+                                <div class="input-group-email">
+                                    <label for="email">Email</label>
+                                    <input type="text" name="email" class="input-email" required>
+                                </div>
+                            </div>
+                            <label for="message" class="messageLabels">Message</label>
+                            <textarea name="message"  rows="5" cols="60" autocomplete="off" required></textarea>
+
+                            <button class="submit" type="submit">Submit</button>
+                </form>
+                </div>
+            </div>
+            <div class="links">
+                <hr>
+                <div class="copyright">
+                    &copy <div style="display: inline-block;" id="currentYear">2024</div> <div style="display: inline-block;">Ryan Tang</div>
+                </div>
+                <div class="socials">
+                    <button onclick= "SocialsClick(id)" id="instagram" class="social  fa fa-instagram"></button>
+                    <button onclick= "SocialsClick(id)" id="linkedin" class="social  fa fa-linkedin-square"></button>
+                    <button onclick= "SocialsClick(id)" id="github" class="social  fa fa-github"></button>
+                </div>
+            </div>
+            <script src="index.js"> </script>
+    </body>
+</html>

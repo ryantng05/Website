@@ -1,0 +1,53 @@
+.portfolio{
+    margin-top: 500px;
+    padding-left: 8%;
+}
+
+.cards-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards{
+    margin-left: 1em;
+    padding-left: 5%;
+    padding-right: 5%;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 2px solid transparent;
+    text-decoration: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: 0.2s ease;
+}
+
+.portfolio-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    height: 15em;
+    width: 15em;
+}
+
+.cards h2{
+    font-family: Verdana, Arial;
+    font-size: 1em;
+    text-align: center;
+}
+
+.cards p{
+    font-family: Verdana, Arial;
+    font-size: 0.7em;
+    text-align: center;
+    color: #555;
+}
+
+.cards-button{
+    display: inline-block;
+    height: 2em;
+    margin-top: 8em;
+    border: none;
+    background: none;
+}

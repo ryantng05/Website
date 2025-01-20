@@ -1,0 +1,82 @@
+.contact{
+    margin-top: 500px;
+    padding-left: 8%;
+}
+
+.message-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input-row
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.input-row .input-group{
+    flex-basis: 45%;
+}
+
+.input-row .input-group-email{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+input{
+    padding: 10px;
+    width: 100%
+}
+.input-email{
+    padding: 10px;
+    width: 44.5em;
+}
+
+textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 27px;
+    width: 45em;
+}
+
+.submit{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #555;
+    border: none;
+    outline: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.submit:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.contact h2{
+    font-family: Verdana;
+    text-align: center;
+    display: inline-block;
+}
+
+.phone{
+    display: inline-block;
+}
+
+
+.mail-icon{
+    color: blue;
+    margin-left: 10em;
+}
+
+.call-icon{
+    color: green;
+    margin-left: 5em;
+}

@@ -1,0 +1,31 @@
+.links{
+    margin-top: 200px;
+    padding-left: 8%;
+}
+
+.links .copyright{
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    color: rgb(172, 170, 168);
+}
+
+.socials{
+    display: inline-block;
+    position: absolute;
+    left: 90%;
+    width: 100%;
+}
+
+.social{
+    display: block;
+    font-size: large;
+    color:none;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+.social:hover{
+    cursor: pointer;
+}
