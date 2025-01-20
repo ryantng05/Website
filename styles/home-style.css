@@ -79,6 +79,8 @@ span{
 body {
     background-color: white;
     color: black;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 .home-img {
     display: inline-block;
